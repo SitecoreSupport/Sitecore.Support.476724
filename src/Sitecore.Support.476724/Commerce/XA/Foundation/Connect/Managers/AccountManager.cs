@@ -102,7 +102,6 @@ namespace Sitecore.Support.Commerce.XA.Foundation.Connect.Managers
 
                     if (!userNameFromContact.Equals(Context.User.Name, StringComparison.OrdinalIgnoreCase))
                     {
-                        // Security alert - Tracker contact and Context user are out of sync
                         userNameFromContact = string.Empty;
                         Logout();
                     }
