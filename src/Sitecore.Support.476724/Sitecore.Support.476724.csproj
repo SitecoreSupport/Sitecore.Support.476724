@@ -53,6 +53,7 @@
     <Reference Include="Sitecore.Commerce.Connect.Core, Version=11.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore.Commerce.Connect.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Commerce.Engine.Connect">
       <HintPath>..\..\lib\Sitecore.Commerce.Engine.Connect.dll</HintPath>
@@ -61,10 +62,12 @@
     <Reference Include="Sitecore.Commerce.XA.Foundation.Common, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore.Commerce.XA.Foundation.Common.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Commerce.XA.Foundation.Connect, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore.Commerce.XA.Foundation.Connect.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
